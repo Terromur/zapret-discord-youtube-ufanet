@@ -19,7 +19,8 @@ start "zapret: %~n0" /min "%BIN%winws.exe" --wf-tcp=80,443,2053,2083,2087,2096,8
 --filter-tcp=80,443 --ipset="%LISTS%all_plain_ipv4.txt" --dpi-desync=fake --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n3 --dup-fooling=md5sig -dpi-desync-repeats=12 --dpi-desync-fake-tls="%BIN%tls_clienthello_4pda_to.bin" --new ^
 --filter-udp=443 --ipset="%LISTS%all_plain_ipv4.txt" --dpi-desync=fake --dpi-desync-autottl=2 --dpi-desync-repeats=12 --dpi-desync-any-protocol=1 --dpi-desync-fake-unknown-udp="%BIN%quic_initial_www_google_com.bin" --dpi-desync-cutoff=n3 --new ^
 --filter-tcp=80,443 --ipset="%LISTS%constant_plain_ipv4.txt" --dpi-desync=fake --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig -dpi-desync-repeats=6 --dpi-desync-fake-tls=%BIN%tls_clienthello_4pda_to.bin --new ^
---filter-tcp=443,2053,2083,2087,2096,8443 --hostlist-domains=cdn.localizeapi.com --dpi-desync=fake --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig -dpi-desync-repeats=6 --dpi-desync-fake-tls=%BIN%tls_clienthello_4pda_to.bin
+--filter-tcp=443,2053,2083,2087,2096,8443 --hostlist-domains=cdn.localizeapi.com --dpi-desync=fake --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-repeats=6 --dpi-desync-fake-tls=%BIN%tls_clienthello_4pda_to.bin
+
 
 
 
