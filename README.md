@@ -2,7 +2,7 @@
 
 Для Linux предлагаю только одну стратегию для оригинального zapret. Просто переместите все файлы в /opt/zapret, либо адаптируйте как вы посчитаете нужным.
 
-Если стратегия на Linux для вас не сработала, рекомендую попробовать эту: https://github.com/un-couteau/zapret-conf-ufanet
+Если стратегия на Linux для вас не сработала, рекомендую попробовать это: https://github.com/un-couteau/zapret-conf-ufanet
 
 Так же из рекомендаций можете попробовать ещё и это: https://github.com/Sergeydigl3/zapret-discord-youtube-linux
 
