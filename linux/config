@@ -105,7 +105,7 @@ NFQWS_PORTS_UDP_KEEPALIVE=""
 # <HOSTLIST_NOAUTO> appends ipset/zapret-hosts-auto.txt as normal list
 NFQWS_OPT="
 --filter-udp=50000-50100 --filter-l7=stun,discord --dpi-desync=fake --dpi-desync-repeats=6 --new
---filter-tcp=443,2053,2083,2087,2096,8443 --hostlist-domains=discord-attachments-uploads-prd.storage.googleapis.com --dpi-desync=multidisorder --dpi-desync-split-pos=2 -dpi-desync-repeats=6 --dpi-desync-fake-tls=/opt/zapret/files/fake/tls_clienthello_4pda_to.bin  --new
+--filter-tcp=443,2053,2083,2087,2096,8443 --hostlist-domains=discord-attachments-uploads-prd.storage.googleapis.com --dpi-desync=multidisorder --dpi-desync-split-pos=2 -dpi-desync-repeats=12 --dpi-desync-fake-tls=/opt/zapret/files/fake/tls_clienthello_4pda_to.bin  --new
 --filter-tcp=2053,2083,2087,2096,8443 --hostlist-domains=discord.media --dpi-desync=multisplit --dpi-desync-split-seqovl=652 --dpi-desync-split-pos=2 --dpi-desync-split-seqovl-pattern=/opt/zapret/files/fake/tls_clienthello_www_google_com.bin --new
 --filter-tcp=443 --hostlist=/opt/zapret/hostlists/list-google.txt --dpi-desync=multidisorder --dpi-desync-split-pos=midsld -dpi-desync-repeats=6 --dpi-desync-fake-tls=/opt/zapret/files/fake/tls_clienthello_4pda_to.bin --new
 --filter-tcp=80,443 --ipset="/opt/zapret/hostlists/cdn_ip_ranges/all_plain_ipv4.txt" --dpi-desync=fake --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig -dpi-desync-repeats=12 --dpi-desync-fake-tls=/opt/zapret/files/fake/tls_clienthello_4pda_to.bin --new
