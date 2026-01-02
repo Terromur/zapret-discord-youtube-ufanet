@@ -1,7 +1,7 @@
 127.0.0.1       localhost
 ::1             ip6-localhost
 
-#У кого не работае автоматический регион (или сервер Финляндия) в звонках расскоментируйте.
+# У кого не работает автоматический регион (или сервер Финляндия) в звонках раскомментируйте:
 #104.25.158.178 finland10000.discord.media
 #104.25.158.178 finland10001.discord.media
 #104.25.158.178 finland10002.discord.media
@@ -203,7 +203,7 @@
 #104.25.158.178 finland10198.discord.media
 #104.25.158.178 finland10199.discord.media
 
-# ChatGPT
+# ChatGPT:
 103.27.157.38 chatgpt.com
 103.27.157.38 ab.chatgpt.com
 103.27.157.38 auth.openai.com
@@ -271,16 +271,16 @@
 103.27.157.38 api.elevenlabs.io
 103.27.157.38 help.elevenlabs.io
 
-# Truth Social
+# Truth Social:
 103.27.157.38 truthsocial.com
 103.27.157.38 static-assets-1.truthsocial.com
 
-# Grok
+# Grok:
 103.27.157.38 grok.com
 103.27.157.38 accounts.x.ai
 103.27.157.38 assets.grok.com
 
-# Tidal
+# Tidal:
 103.27.157.38 api.tidal.com
 103.27.157.38 listen.tidal.com
 103.27.157.38 login.tidal.com
@@ -294,7 +294,7 @@
 103.27.157.38 api.squareup.com
 103.27.157.38 api-global.squareup.com
 
-# DeepL
+# DeepL:
 103.27.157.38 deepl.com
 103.27.157.38 www.deepl.com
 103.27.157.38 www2.deepl.com
@@ -316,25 +316,95 @@
 103.27.157.38 auth.deepl.com
 103.27.157.38 oneshot-free.www.deepl.com
 
-# Deezer
+# Deezer:
 103.27.157.38 deezer.com
 103.27.157.38 www.deezer.com
 103.27.157.38 dzcdn.net
 103.27.157.38 payment.deezer.com
 
-# Fitbit
+# Fitbit:
 103.27.157.38 api.fitbit.com
 103.27.157.38 fitbit-pa.googleapis.com
 103.27.157.38 fitbitvestibuleshim-pa.googleapis.com
 103.27.157.38 fitbit.google.com
 
-# Claude
+# Claude:
 103.27.157.38 claude.ai
 103.27.157.38 console.anthropic.com
 103.27.157.38 auth.anthropic.com
 103.27.157.38 api.anthropic.com
 
-# Другое
+# Broadcom:
+103.27.157.38 access.broadcom.com
+103.27.157.38 knowledge.broadcom.com
+103.27.157.38 support.broadcom.com
+103.27.157.38 profile.broadcom.com
+
+# Supercell:
+103.27.157.38 accounts.supercell.com
+103.27.157.38 cdn.id.supercell.com
+103.27.157.38 clashofclans.inbox.supercell.com
+103.27.157.38 game-assets.brawlstarsgame.com
+103.27.157.38 game-assets.clashofclans.com
+103.27.157.38 game-assets.clashroyaleapp.com
+103.27.157.38 security.id.supercell.com
+103.27.157.38 store.supercell.com
+103.27.157.38 game.brawlstarsgame.com
+103.27.157.38 game.clashroyaleapp.com
+103.27.157.38 game.mocogame.com
+103.27.157.38 game.squadbustersgame.com
+103.27.157.38 gamea.clashofclans.com
+
+# Dell:
+103.27.157.38 afcs.dellcdn.com
+103.27.157.38 nexus.dell.com
+103.27.157.38 i.dell.com
+103.27.157.38 www.dell.com
+103.27.157.38 dds.dell.com
+
+# Instagram:
+103.27.157.38 instagram.com
+103.27.157.38 www.instagram.com
+103.27.157.38 b.i.instagram.com
+103.27.157.38 help.instagram.com
+
+# Linear.app:
+103.27.157.38 client-api.linear.app
+103.27.157.38 constellation.linear.app
+103.27.157.38 linear.app
+103.27.157.38 public.linear.app
+103.27.157.38 s.linear.app
+103.27.157.38 static.linear.app
+103.27.157.38 uploads.linear.app
+
+# Microsoft (Copilot, Designer, Xbox):
+103.27.157.38 designer.microsoft.com
+103.27.157.38 designerapp.officeapps.live.com
+103.27.157.38 ecs.office.com
+103.27.157.38 xboxdesignlab.xbox.com
+103.27.157.38 copilot.microsoft.com
+103.27.157.38 sydney.bing.com
+103.27.157.38 edgeservices.bing.com
+103.27.157.38 rewards.bing.com
+103.27.157.38 xsts.auth.xboxlive.com
+103.27.157.38 xgpuwebf2p.gssv-play-prod.xboxlive.com
+103.27.157.38 xgpuweb.gssv-play-prod.xboxlive.com
+103.27.157.38 win1910.ipv6.microsoft.com
+103.27.157.38 azwindows.ipv6.microsoft.com.akadns.net
+
+# Windsurf:
+103.27.157.38 codeium.com
+103.27.157.38 codeiumdata.com
+103.27.157.38 inference.codeium.com
+103.27.157.38 marketplace.windsurf.com
+103.27.157.38 server.codeium.com
+103.27.157.38 unleash.codeium.com
+103.27.157.38 web-backend.codeium.com
+103.27.157.38 windsurf-stable.codeium.com
+103.27.157.38 windsurf-telemetry.codeium.com
+103.27.157.38 windsurf.com
+
+# Другое:
 103.27.157.38 www.notion.so
 103.27.157.38 www.canva.com
 103.27.157.38 www.intel.com
@@ -378,77 +448,7 @@
 103.27.157.38 weather.com
 103.27.157.38 upsx.weather.com
 
-# Broadcom
-103.27.157.38 access.broadcom.com
-103.27.157.38 knowledge.broadcom.com
-103.27.157.38 support.broadcom.com
-103.27.157.38 profile.broadcom.com
-
-# Supercell
-103.27.157.38 accounts.supercell.com
-103.27.157.38 cdn.id.supercell.com
-103.27.157.38 clashofclans.inbox.supercell.com
-103.27.157.38 game-assets.brawlstarsgame.com
-103.27.157.38 game-assets.clashofclans.com
-103.27.157.38 game-assets.clashroyaleapp.com
-103.27.157.38 security.id.supercell.com
-103.27.157.38 store.supercell.com
-103.27.157.38 game.brawlstarsgame.com
-103.27.157.38 game.clashroyaleapp.com
-103.27.157.38 game.mocogame.com
-103.27.157.38 game.squadbustersgame.com
-103.27.157.38 gamea.clashofclans.com
-
-# Dell
-103.27.157.38 afcs.dellcdn.com
-103.27.157.38 nexus.dell.com
-103.27.157.38 i.dell.com
-103.27.157.38 www.dell.com
-103.27.157.38 dds.dell.com
-
-# Instagram
-103.27.157.38 instagram.com
-103.27.157.38 www.instagram.com
-103.27.157.38 b.i.instagram.com
-103.27.157.38 help.instagram.com
-
-# Linear.app
-103.27.157.38 client-api.linear.app
-103.27.157.38 constellation.linear.app
-103.27.157.38 linear.app
-103.27.157.38 public.linear.app
-103.27.157.38 s.linear.app
-103.27.157.38 static.linear.app
-103.27.157.38 uploads.linear.app
-
-# Microsoft (Copilot, Designer, Xbox)
-103.27.157.38 designer.microsoft.com
-103.27.157.38 designerapp.officeapps.live.com
-103.27.157.38 ecs.office.com
-103.27.157.38 xboxdesignlab.xbox.com
-103.27.157.38 copilot.microsoft.com
-103.27.157.38 sydney.bing.com
-103.27.157.38 edgeservices.bing.com
-103.27.157.38 rewards.bing.com
-103.27.157.38 xsts.auth.xboxlive.com
-103.27.157.38 xgpuwebf2p.gssv-play-prod.xboxlive.com
-103.27.157.38 xgpuweb.gssv-play-prod.xboxlive.com
-103.27.157.38 win1910.ipv6.microsoft.com
-103.27.157.38 azwindows.ipv6.microsoft.com.akadns.net
-
-# Windsurf
-103.27.157.38 codeium.com
-103.27.157.38 codeiumdata.com
-103.27.157.38 inference.codeium.com
-103.27.157.38 marketplace.windsurf.com
-103.27.157.38 server.codeium.com
-103.27.157.38 unleash.codeium.com
-103.27.157.38 web-backend.codeium.com
-103.27.157.38 windsurf-stable.codeium.com
-103.27.157.38 windsurf-telemetry.codeium.com
-103.27.157.38 windsurf.com
-
-# Остальной мусор для обхода
+# Остальной мусор для обхода:
 103.27.157.38 ipv6.msftconnecttest.com
 103.27.157.38 ncsiv6-geo.trafficmanager.net
 103.27.157.38 ipv6.msftconnecttest.com.edgesuite.net
@@ -489,3 +489,4 @@
 0.0.0.0 amc.yandex.ru
 0.0.0.0 tigr1234566.github.io
 0.0.0.0 rezvorck.github.io
+
